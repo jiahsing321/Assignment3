@@ -1,0 +1,6 @@
+Output of command: date; ls -l junk.txt; touch junk.txt; ls -l junk.txt;
+
+Mon Jul 30 04:46:55 CDT 2018
+-rw-------+ 1 jwh150030 sn 0 Jul 30 04:46 junk.txt
+
+

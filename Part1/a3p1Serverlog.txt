@@ -1,0 +1,251 @@
+My Process id : 35706
+Executing command: ls
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Output of command: ls
+
+
+Output of command: ls
+
+a3p1Client1
+
+Output of command: ls
+
+a3p1Client1
+a3p1Client1.c
+
+Output of command: ls
+
+a3p1Client1
+a3p1Client1.c
+a3p1Client1.c~
+
+Output of command: ls
+
+a3p1Client1
+a3p1Client1.c
+a3p1Client1.c~
+a3p1ClientLog1.txt
+
+Output of command: ls
+
+a3p1Client1
+a3p1Client1.c
+a3p1Client1.c~
+a3p1ClientLog1.txt
+a3p1Server
+
+Output of command: ls
+
+a3p1Client1
+a3p1Client1.c
+a3p1Client1.c~
+a3p1ClientLog1.txt
+a3p1Server
+a3p1Server.c
+
+Output of command: ls
+
+a3p1Client1
+a3p1Client1.c
+a3p1Client1.c~
+a3p1ClientLog1.txt
+a3p1Server
+a3p1Server.c
+a3p1Server.c~
+
+Output of command: ls
+
+a3p1Client1
+a3p1Client1.c
+a3p1Client1.c~
+a3p1ClientLog1.txt
+a3p1Server
+a3p1Server.c
+a3p1Server.c~
+a3p1Serverlog.txt
+
+Output of command: ls
+
+a3p1Client1
+a3p1Client1.c
+a3p1Client1.c~
+a3p1ClientLog1.txt
+a3p1Server
+a3p1Server.c
+a3p1Server.c~
+a3p1Serverlog.txt
+makefile
+
+Thread 1 in process 35706 did ls
+ at time Mon Jul 30 05:47:55 2018
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+My Process id : 35706
+Executing command: cat makefile
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Output of command: ls
+
+a3p1Client1
+a3p1Client1.c
+a3p1Client1.c~
+a3p1ClientLog1.txt
+a3p1Server
+a3p1Server.c
+a3p1Server.c~
+a3p1Serverlog.txt
+makefile
+
+
+Output of command: cat makefile
+
+
+Output of command: ls
+
+a3p1Client1
+a3p1Client1.c
+a3p1Client1.c~
+a3p1ClientLog1.txt
+a3p1Server
+a3p1Server.c
+a3p1Server.c~
+a3p1Serverlog.txt
+makefile
+
+
+Output of command: cat makefile
+
+all: a3p1Client1 a3p1Server
+
+Output of command: ls
+
+a3p1Client1
+a3p1Client1.c
+a3p1Client1.c~
+a3p1ClientLog1.txt
+a3p1Server
+a3p1Server.c
+a3p1Server.c~
+a3p1Serverlog.txt
+makefile
+
+
+Output of command: cat makefile
+
+all: a3p1Client1 a3p1Server
+
+
+Output of command: ls
+
+a3p1Client1
+a3p1Client1.c
+a3p1Client1.c~
+a3p1ClientLog1.txt
+a3p1Server
+a3p1Server.c
+a3p1Server.c~
+a3p1Serverlog.txt
+makefile
+
+
+Output of command: cat makefile
+
+all: a3p1Client1 a3p1Server
+
+a3p1Client1: a3p1Client1.c
+
+Output of command: ls
+
+a3p1Client1
+a3p1Client1.c
+a3p1Client1.c~
+a3p1ClientLog1.txt
+a3p1Server
+a3p1Server.c
+a3p1Server.c~
+a3p1Serverlog.txt
+makefile
+
+
+Output of command: cat makefile
+
+all: a3p1Client1 a3p1Server
+
+a3p1Client1: a3p1Client1.c
+	gcc -o a3p1Client1 a3p1Client1.c -lpthread -l sqlite3
+
+Output of command: ls
+
+a3p1Client1
+a3p1Client1.c
+a3p1Client1.c~
+a3p1ClientLog1.txt
+a3p1Server
+a3p1Server.c
+a3p1Server.c~
+a3p1Serverlog.txt
+makefile
+
+
+Output of command: cat makefile
+
+all: a3p1Client1 a3p1Server
+
+a3p1Client1: a3p1Client1.c
+	gcc -o a3p1Client1 a3p1Client1.c -lpthread -l sqlite3
+
+
+Output of command: ls
+
+a3p1Client1
+a3p1Client1.c
+a3p1Client1.c~
+a3p1ClientLog1.txt
+a3p1Server
+a3p1Server.c
+a3p1Server.c~
+a3p1Serverlog.txt
+makefile
+
+
+Output of command: cat makefile
+
+all: a3p1Client1 a3p1Server
+
+a3p1Client1: a3p1Client1.c
+	gcc -o a3p1Client1 a3p1Client1.c -lpthread -l sqlite3
+
+a3p1Server: a3p1Server.c
+
+Output of command: ls
+
+a3p1Client1
+a3p1Client1.c
+a3p1Client1.c~
+a3p1ClientLog1.txt
+a3p1Server
+a3p1Server.c
+a3p1Server.c~
+a3p1Serverlog.txt
+makefile
+
+
+Output of command: cat makefile
+
+all: a3p1Client1 a3p1Server
+
+a3p1Client1: a3p1Client1.c
+	gcc -o a3p1Client1 a3p1Client1.c -lpthread -l sqlite3
+
+a3p1Server: a3p1Server.c
+	gcc -o a3p1Server a3p1Server.c -lpthread -l sqlite3
+
+Thread 1 in process 35706 did cat makefile
+ at time Mon Jul 30 05:47:59 2018
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+

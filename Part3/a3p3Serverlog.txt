@@ -1,0 +1,24 @@
+My Process id : 38397
+Executing command: date; ls -l junk.txt; touch junk.txt
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Output of command: date; ls -l junk.txt; touch junk.txt
+
+
+Output of command: date; ls -l junk.txt; touch junk.txt
+
+Mon Jul 30 06:17:19 CDT 2018
+
+Thread 1 in process 38397 did date; ls -l junk.txt; touch junk.txt
+ at time Mon Jul 30 06:17:19 2018
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+ process 38397 did date; ls -l junk.txt; rm -f junk.txt
+ at time Mon Jul 30 06:17:41 2018
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+

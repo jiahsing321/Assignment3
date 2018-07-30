@@ -1,0 +1,5 @@
+Output of command: date; ls -l junk.txt; touch junk.txt
+
+Mon Jul 30 06:17:19 CDT 2018
+
+

@@ -1,0 +1,6 @@
+Output of command: date; ls -l junk.txt; uname -a
+
+Mon Jul 30 06:18:03 CDT 2018
+Linux cslinux1.utdallas.edu 3.10.0-693.21.1.el7.x86_64 #1 SMP Wed Mar 7 19:03:37 UTC 2018 x86_64 x86_64 x86_64 GNU/Linux
+
+

@@ -1,0 +1,6 @@
+Output of command: date; ls -l junk.txt; rm -f junk.txt
+
+Mon Jul 30 06:17:41 CDT 2018
+-rw-------+ 1 jwh150030 sn 0 Jul 30 06:17 junk.txt
+
+
